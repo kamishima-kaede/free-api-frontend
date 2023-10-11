@@ -6,9 +6,9 @@
     "dev": "vite",
     "build": "vite build --mode prd",
     "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "prepare": "husky install",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
